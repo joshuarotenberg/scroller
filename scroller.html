@@ -1,19 +1,10 @@
 <html>
 
 <head>
-
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-
-
-
 </head>
 
 <body>
-
-
-
-
-
     <style>
     #longBanner {
         width:720px;
@@ -43,13 +34,13 @@
     'use strict';
     (function() {
         $('.adScroller').each(function(i) {
-          var div = $(this);
+            var div = $(this);
             var startScroll = setInterval(function() {
                 var pos = div.scrollTop();
                 div.scrollTop(pos + 2);
             }, 50);
 
-            $(div).mouseover(function() {
+            div.mouseover(function() {
                 clearInterval(startScroll);
             });
         });
