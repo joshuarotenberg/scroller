@@ -6,9 +6,8 @@
         background-color: #fff;
         border: 1px solid gray;
     }
-    .adscroller > p,    h4 {
+    .adscroller > p, h4 {
         padding: 0 10px 0 10px;
-        
     }
     p {
         font-size: 11px;
@@ -28,7 +27,7 @@
         height:90px;
         position: relative;
     }
-    #superLongBanner > .adScroller {
+    .fred > .adScroller {
         width: 198px;
         height: 87px;
         z-index: 99;
@@ -67,3 +66,12 @@
         color:#fff;
         margin-left: 40px;
     }*/
+    .hal > .adScroller {
+        width: 198px;
+        height: 88px;
+        z-index: 99;
+        position: absolute;
+        display: inline-block;
+        right: 0;
+        top: 0;
+    }
