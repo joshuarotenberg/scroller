@@ -4,85 +4,29 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/scroller.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/scroller.css">
 
 </head>
 
 <body>
-
-
-    <style type="text/css">
-    .boxy {
-        margin: 20px;
-    }
-    .adScroller {
-        overflow-y: scroll;
-        background-color: #fff;
-        border: 1px solid gray;
-    }
-    .adscroller > p {
-        padding: 0 10px 0 10px;
-        font-size: 12px;
-    }
-    #longBanner {
-        width: 728px;
-        height: 90px;
-        background-color: purple;
-    }
-    #longBanner > .adScroller {
-        width: 200px;
-        height: 88px;
-        float: right;
-    }
-    #superLongBanner {
-        width: 970px;
-        height: 90px;
-        background-color: purple;
-    }
-    #superLongBanner > .adScroller {
-        width: 200px;
-        height: 88px;
-        float: right;
-    }
-    #boxBanner {
-        width: 300px;
-        height: 250px;
-        background-color: purple;
-    }
-    #boxBanner > .adscroller {
-        width: 298px;
-        height: 50px;
-        position: relative;
-        bottom: -198px;
-    }
-    #skyscraperBanner {
-        width: 300px;
-        height: 600px;
-        background-color: purple;
-    }
-    #skyscraperBanner > .adscroller {
-        width: 298px;
-        height: 70px;
-        position: relative;
-        bottom: -528px;
-    }
-    .specs {
-        font-size: 60px;
-        color:#fff;
-        margin-left: 40px;
-    }
-    #number1 {
-    }
-    #number2 {
-    }
-    #number3 {
-    }
-    #number4 {
-    }
-    </style>
     <div class="boxy" id="SuperLongBanner">
+        <img src="img/970x90_pga_fred.gif" />
         <div class="adScroller" data-speed="50">
-            <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+            <h4>Important Information</h4>
+            <p><strong>Knee Replacements</strong></p>
+            <p>Total knee replacement is intended for use in individuals with joint disease resulting from degenerative, rheumatoid and post-traumatic arthritis, and for moderate deformity of the knee. Knee replacement surgery is not appropriate for patients with certain types of infections, any mental or neuromuscular disorder which would create an unacceptable risk of prosthesis instability, prosthesis fixation failure or complications in postoperative care, compromised bone stock, skeletal immaturity, severe instability of the knee, or excessive body weight.
+            </p>
+            <p>As with any surgery, knee replacement surgery has serious risks which include, but are not limited to, peripheral neuropathies (nerve damage), circulatory compromise (including deep vein thrombosis (blood clots in the legs)), genitourinary disorders (including kidney failure), gastrointestinal disorders (including paralytic ileus (loss of intestinal digestive movement)), vascular disorders (including thrombus (blood clots), blood loss, or changes in blood pressure or heart rhythm), bronchopulmonary disorders (including emboli, stroke or pneumonia), heart attack, and death.
+            </p>
+            <p>Implant related risks which may lead to a revision include dislocation, loosening, fracture, nerve damage, heterotopic bone formation (abnormal bone growth in tissue), wear of the implant, metal sensitivity, soft tissue imbalance, osteolysis (localized progressive bone loss), and reaction to particle debris. Knee implants may not provide the same feel or performance characteristics experienced with a normal healthy joint.</p>
+
+            <p>The information presented is for educational purposes only. Speak to your doctor to decide if joint replacement surgery is right for you. Individual results vary and not all patients will receive the same postoperative activity level. The lifetime of a joint replacement is not infinite and varies with each individual. Your doctor will help counsel you about how to best maintain your activities in order to potentially prolong the lifetime of the device. Such strategies include not engaging in high-impact activities, such as running, as well as maintaining a healthy weight.</p>
+
+            <p>Stryker Corporation or its other divisions or other corporate affiliated entities own, use or have applied for the following trademarks or service marks: GetAroundKnee, Stryker. All other trademarks are trademarks of their respected owners or holders.
+            </p>
+            <p>Stryker is a sponsor of the PGA Tour. Fred Funk is a paid spokesperson of Stryker, and his statements represent his personal views based on his personal experiences.</p>
+
         </div>
         <p id="number1" class="specs">970x90</p>
     </div>
@@ -111,23 +55,6 @@
         </div>
         <p id="number4" class="specs">300x600</p>
     </div>
-
-    <script>
-    'use strict';
-    (function() {
-        $('.adScroller').each(function(i) {
-            var div = $(this);
-            var startScroll = setInterval(function() {
-                var pos = div.scrollTop();
-                div.scrollTop(pos + 2);
-            }, $(this).data('speed'));
-
-            div.mouseover(function() {
-                clearInterval(startScroll);
-            });
-        });
-    })();
-    </script>
 
 </body>
 
