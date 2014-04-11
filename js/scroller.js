@@ -1,6 +1,6 @@
     'use strict';
     $(function() {
-        $('.adScroller').each(function(i) {
+        $('.adScroller').each(function() {
             var div = $(this);
             var startScroll = setInterval(function() {
                 var pos = div.scrollTop();
@@ -11,4 +11,9 @@
                 clearInterval(startScroll);
             });
         });
-    })();
+        $('img.restart').each(function() {
+            var img = $(this);
+            var src = img.attr('src');
+            img.attr('src', src+'?'+Date.now());
+        });
+    });
