@@ -28,8 +28,8 @@
         position: relative;
     }
     .superLongBanner > .adScroller {
-        width: 208px;
-        height: 89px;
+        width: 201px;
+        height: 88px;
         z-index: 99;
         position: absolute;
         display: inline-block;
