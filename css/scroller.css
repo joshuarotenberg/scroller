@@ -61,8 +61,20 @@
         position: relative;
         bottom: -528px;
     }
-    /*   .specs {
-        font-size: 60px;
-        color:#fff;
-        margin-left: 40px;
-    }*/
+    .sykbanner_image {
+        width: 770px;
+        height: 90px;
+        background-repeat: no-repeat;
+    }
+    .superLongBanner.fred .sykbanner_image {
+        background-image: url(../img/stacked.jpg);
+    }
+    .frame1{
+    background-position: 0 0;
+    }
+    .frame2{
+    background-position: 0 -90px;
+    }
+    .frame3{
+    background-position: 0 -180px;
+    }
